@@ -1,5 +1,5 @@
 //
-//  FeedViewController.swift
+//  TabBarController.swift
 //  InstagramLab
 //
 //  Created by Tanya Burke on 5/7/20.
@@ -8,9 +8,8 @@
 
 import UIKit
 
-class FeedViewController: UIViewController {
+class TabBarController: UITabBarController {
 
-    @IBOutlet weak var collectionView: UICollectionView!
     override func viewDidLoad() {
         super.viewDidLoad()
 
