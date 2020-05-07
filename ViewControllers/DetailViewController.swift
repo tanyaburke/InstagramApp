@@ -1,5 +1,5 @@
 //
-//  FeedViewController.swift
+//  DetailViewController.swift
 //  InstagramLab
 //
 //  Created by Tanya Burke on 5/7/20.
@@ -8,9 +8,10 @@
 
 import UIKit
 
-class FeedViewController: UIViewController {
+class DetailViewController: UIViewController {
 
-    @IBOutlet weak var collectionView: UICollectionView!
+    @IBOutlet weak var imageView: UIImageView!
+    @IBOutlet weak var imageDetailLabel: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
 
