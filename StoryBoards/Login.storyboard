@@ -15,10 +15,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="44e-XZ-XEV" userLabel="Container View" customClass="DesignableView" customModule="Firebase_Demo" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="44e-XZ-XEV" userLabel="Container View" customClass="DesignableView" customModule="InstagramLab" customModuleProvider="target">
                                 <rect key="frame" x="20" y="179" width="374" height="538"/>
                                 <subviews>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="email" textAlignment="center" minimumFontSize="17" clearButtonMode="always" translatesAutoresizingMaskIntoConstraints="NO" id="e1n-d0-wFe" customClass="DesignableTextField" customModule="Firebase_Demo" customModuleProvider="target">
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="email" textAlignment="center" minimumFontSize="17" clearButtonMode="always" translatesAutoresizingMaskIntoConstraints="NO" id="e1n-d0-wFe" customClass="DesignableTextField" customModule="InstagramLab" customModuleProvider="target">
                                         <rect key="frame" x="37.5" y="100" width="299" height="44"/>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                         <constraints>
@@ -32,7 +32,7 @@
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                     </textField>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="password" textAlignment="center" minimumFontSize="17" clearButtonMode="always" translatesAutoresizingMaskIntoConstraints="NO" id="1V1-p0-0MN" customClass="DesignableTextField" customModule="Firebase_Demo" customModuleProvider="target">
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="password" textAlignment="center" minimumFontSize="17" clearButtonMode="always" translatesAutoresizingMaskIntoConstraints="NO" id="1V1-p0-0MN" customClass="DesignableTextField" customModule="InstagramLab" customModuleProvider="target">
                                         <rect key="frame" x="37.5" y="184" width="299" height="44"/>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                         <constraints>
@@ -46,7 +46,7 @@
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                     </textField>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OfY-bm-rbW" customClass="DesignableButton" customModule="Firebase_Demo" customModuleProvider="target">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OfY-bm-rbW" customClass="DesignableButton" customModule="InstagramLab" customModuleProvider="target">
                                         <rect key="frame" x="37.5" y="268" width="299" height="44"/>
                                         <color key="backgroundColor" red="1" green="0.49327188729999999" blue="0.47399842739999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
@@ -111,7 +111,7 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="G2l-Yh-SFV" customClass="GradientView" customModule="Firebase_Demo" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="G2l-Yh-SFV" customClass="GradientView" customModule="InstagramLab" customModuleProvider="target">
                                 <rect key="frame" x="157" y="129" width="100" height="100"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <constraints>
@@ -124,7 +124,7 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pursuit-logo" translatesAutoresizingMaskIntoConstraints="NO" id="dzR-RU-WAZ" customClass="DesignableImageView" customModule="Firebase_Demo" customModuleProvider="target">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pursuit-logo" translatesAutoresizingMaskIntoConstraints="NO" id="dzR-RU-WAZ" customClass="DesignableImageView" customModule="InstagramLab" customModuleProvider="target">
                                 <rect key="frame" x="157" y="129" width="100" height="100"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <userDefinedRuntimeAttributes>
@@ -133,7 +133,7 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="error label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jzn-7I-anZ">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="error label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jzn-7I-anZ">
                                 <rect key="frame" x="20" y="76" width="374" height="19.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <nil key="textColor"/>
@@ -149,7 +149,7 @@
                             <constraint firstItem="9Jn-Jz-rKZ" firstAttribute="trailing" secondItem="44e-XZ-XEV" secondAttribute="trailing" constant="20" id="OUx-WB-eVV"/>
                             <constraint firstItem="44e-XZ-XEV" firstAttribute="height" secondItem="PFW-2h-rih" secondAttribute="height" multiplier="0.6" id="SEb-HH-jdn"/>
                             <constraint firstItem="dzR-RU-WAZ" firstAttribute="trailing" secondItem="G2l-Yh-SFV" secondAttribute="trailing" id="Zt4-AJ-oxa"/>
-                            <constraint firstItem="Jzn-7I-anZ" firstAttribute="top" secondItem="9Jn-Jz-rKZ" secondAttribute="top" constant="20" id="aPI-RH-WYT"/>
+                            <constraint firstItem="Jzn-7I-anZ" firstAttribute="top" secondItem="9Jn-Jz-rKZ" secondAttribute="top" constant="32" id="aPI-RH-WYT"/>
                             <constraint firstItem="9Jn-Jz-rKZ" firstAttribute="trailing" secondItem="Jzn-7I-anZ" secondAttribute="trailing" constant="20" id="cr2-f4-Q3j"/>
                             <constraint firstItem="G2l-Yh-SFV" firstAttribute="centerX" secondItem="PFW-2h-rih" secondAttribute="centerX" id="iIM-oz-hxC"/>
                             <constraint firstItem="44e-XZ-XEV" firstAttribute="centerX" secondItem="PFW-2h-rih" secondAttribute="centerX" id="jhJ-2t-wDh"/>

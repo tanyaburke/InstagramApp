@@ -18,6 +18,9 @@
 		2E4F3A4D2464185000A5519E /* UIViewController+Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4F3A4C2464185000A5519E /* UIViewController+Navigation.swift */; };
 		2E4F3A4F246419B100A5519E /* UIViewController+Alerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4F3A4E246419B100A5519E /* UIViewController+Alerts.swift */; };
 		2E4F3A51246419E900A5519E /* MainView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E4F3A50246419E900A5519E /* MainView.storyboard */; };
+		2E4F3A5324642AD400A5519E /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4F3A5224642AD400A5519E /* ProfileViewController.swift */; };
+		2E4F3A55246431B700A5519E /* UpLoadImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4F3A54246431B700A5519E /* UpLoadImageViewController.swift */; };
+		2E4F3A572464342300A5519E /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4F3A562464342300A5519E /* FeedViewController.swift */; };
 		2E67B4B62418152000F48CD9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E67B4B52418152000F48CD9 /* AppDelegate.swift */; };
 		2E67B4B82418152000F48CD9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E67B4B72418152000F48CD9 /* SceneDelegate.swift */; };
 		2E67B4BF2418152700F48CD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E67B4BE2418152700F48CD9 /* Assets.xcassets */; };
@@ -50,6 +53,9 @@
 		2E4F3A4C2464185000A5519E /* UIViewController+Navigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Navigation.swift"; sourceTree = "<group>"; };
 		2E4F3A4E246419B100A5519E /* UIViewController+Alerts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Alerts.swift"; sourceTree = "<group>"; };
 		2E4F3A50246419E900A5519E /* MainView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainView.storyboard; sourceTree = "<group>"; };
+		2E4F3A5224642AD400A5519E /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		2E4F3A54246431B700A5519E /* UpLoadImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpLoadImageViewController.swift; sourceTree = "<group>"; };
+		2E4F3A562464342300A5519E /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		2E67B4B22418152000F48CD9 /* InstagramLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstagramLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E67B4B52418152000F48CD9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2E67B4B72418152000F48CD9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -91,6 +97,9 @@
 			children = (
 				2E4F3A3F24640E0A00A5519E /* DesignableView.swift */,
 				2E3E807E24640969002EE6A5 /* LoginViewController.swift */,
+				2E4F3A5224642AD400A5519E /* ProfileViewController.swift */,
+				2E4F3A54246431B700A5519E /* UpLoadImageViewController.swift */,
+				2E4F3A562464342300A5519E /* FeedViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -374,9 +383,12 @@
 				2E4F3A4F246419B100A5519E /* UIViewController+Alerts.swift in Sources */,
 				2E4F3A4D2464185000A5519E /* UIViewController+Navigation.swift in Sources */,
 				2E3E807F24640969002EE6A5 /* LoginViewController.swift in Sources */,
+				2E4F3A5324642AD400A5519E /* ProfileViewController.swift in Sources */,
 				2E67B4B62418152000F48CD9 /* AppDelegate.swift in Sources */,
 				2E4F3A43246414B000A5519E /* AuthenticationSession.swift in Sources */,
+				2E4F3A55246431B700A5519E /* UpLoadImageViewController.swift in Sources */,
 				2E67B4B82418152000F48CD9 /* SceneDelegate.swift in Sources */,
+				2E4F3A572464342300A5519E /* FeedViewController.swift in Sources */,
 				2E4F3A472464157B00A5519E /* StorageService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
