@@ -65,7 +65,7 @@ extension FeedViewController: UICollectionViewDelegateFlowLayout {
 
 extension FeedViewController: UICollectionViewDataSource {
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-//    return imageObjects.count
+
         return 10
     }
     
@@ -73,9 +73,9 @@ extension FeedViewController: UICollectionViewDataSource {
         guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "feedCell", for: indexPath) as? FeedCell else {
             fatalError("Was expecting an CollectionViewCell, but found a different type")
         }
-//        let image = images[indexPath.row]
-//          let imageObject = imageObjects[indexPath.row]
-//        cell.configureCell(imageObject: imageObject)
+
+          let imageObject = imageObjects[indexPath.row]
+        cell.configureCell(for: imageObject)
         
 //        cell.delegate = self
         return cell

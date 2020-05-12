@@ -301,7 +301,7 @@
                     </tabBarItem>
                     <connections>
                         <outlet property="displayNameLabel" destination="XQi-DV-610" id="UQj-1m-Nka"/>
-                        <outlet property="profileDetailsLabel" destination="YwQ-0k-fou" id="ONG-cW-oy4"/>
+                        <outlet property="profileDetailsLabel" destination="RNY-Cv-xYz" id="gwu-bQ-lWH"/>
                         <outlet property="profileImage" destination="7PZ-O1-WaZ" id="NDE-h8-yW0"/>
                         <outlet property="profileLabel" destination="YwQ-0k-fou" id="hXG-DB-vY1"/>
                     </connections>

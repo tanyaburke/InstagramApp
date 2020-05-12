@@ -62,6 +62,7 @@ class LoginViewController: UIViewController {
             }
           }
         } else {
+            
           authSession.createNewUser(email: email, password: password) { [weak self] (result) in
             switch result {
             case .failure(let error):

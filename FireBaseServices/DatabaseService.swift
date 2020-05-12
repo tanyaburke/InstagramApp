@@ -33,7 +33,9 @@ class DatabaseService {
     db.collection(DatabaseService.itemsCollection)
       .document(documentRef.documentID)
       .setData(["itemId":documentRef.documentID,
-                "sellerName": displayName,"sellerId": user.uid
+                "sellerName": displayName,"sellerId": user.uid,
+                "photoURL" : "",
+                "displayName" : ""
         
       ]) { (error) in
                 
@@ -54,7 +56,8 @@ class DatabaseService {
     db.collection(DatabaseService.usersCollection)
       .document(authDataResult.user.uid)
       .setData(["email" : email,
-                "userId": authDataResult.user.uid]) { (error) in
+                "userId": authDataResult.user.uid,"photoURL" : "",
+                "displayName" : ""]) { (error) in
       
       if let error = error {
         completion(.failure(error))
