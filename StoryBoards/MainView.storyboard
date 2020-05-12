@@ -174,7 +174,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="isaac-sloman-qsgZMnf0Uyc-unsplash" translatesAutoresizingMaskIntoConstraints="NO" id="7PZ-O1-WaZ" customClass="DesignableImageView" customModule="InstagramLab" customModuleProvider="target">
-                                <rect key="frame" x="87" y="244" width="255" height="240"/>
+                                <rect key="frame" x="87" y="247" width="255" height="240"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="240" id="vOR-it-9DD"/>
                                 </constraints>
@@ -188,10 +188,10 @@
                                 </userDefinedRuntimeAttributes>
                             </imageView>
                             <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZNg-tc-i9W" customClass="DesignableButton" customModule="InstagramLab" customModuleProvider="target">
-                                <rect key="frame" x="284" y="195" width="83" height="89"/>
+                                <rect key="frame" x="284" y="195" width="83" height="83"/>
                                 <color key="backgroundColor" red="1" green="0.49327188729999999" blue="0.47399842739999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="90" id="Kds-SY-ipj"/>
+                                    <constraint firstAttribute="height" constant="84" id="Kds-SY-ipj"/>
                                 </constraints>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <size key="titleShadowOffset" width="4" height="5"/>
@@ -207,35 +207,63 @@
                                     <action selector="changeProfilePicture:" destination="5Mq-OS-Jxp" eventType="touchUpInside" id="X9q-Ct-eg5"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="DisplayName" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CZe-5i-8Kt">
-                                <rect key="frame" x="118" y="510" width="216" height="43"/>
-                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="36"/>
-                                <color key="textColor" red="1" green="0.49327188729999999" blue="0.47399842739999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ProfileDetails" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RNY-Cv-xYz">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ProfileDetails" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RNY-Cv-xYz">
                                 <rect key="frame" x="87" y="686" width="255" height="61"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
                                 <color key="textColor" red="1" green="0.49327188729999999" blue="0.47399842739999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N5N-CA-4EA" customClass="DesignableButton" customModule="InstagramLab" customModuleProvider="target">
-                                <rect key="frame" x="174" y="561" width="70" height="70"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F1M-dU-M87" customClass="DesignableButton" customModule="InstagramLab" customModuleProvider="target">
+                                <rect key="frame" x="149" y="761" width="131" height="52"/>
                                 <color key="backgroundColor" red="1" green="0.49327188729999999" blue="0.47399842739999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="70" id="3nm-wj-7UU"/>
+                                    <constraint firstAttribute="height" constant="52" id="0hb-xe-LBN"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
-                                <state key="normal" title="Edit">
+                                <state key="normal" title="SignOut">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                        <real key="value" value="35"/>
+                                        <real key="value" value="25"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <action selector="editDisplayName:" destination="5Mq-OS-Jxp" eventType="touchUpInside" id="xRz-vS-Dgj"/>
+                                    <action selector="signOutPressed:" destination="5Mq-OS-Jxp" eventType="touchUpInside" id="Sz2-V0-dX0"/>
+                                    <action selector="updateProfilePressed:" destination="5Mq-OS-Jxp" eventType="touchUpInside" id="87r-Tm-fpg"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Display Name" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="XQi-DV-610" customClass="DesignableTextField" customModule="InstagramLab" customModuleProvider="target">
+                                <rect key="frame" x="67" y="507" width="280" height="34"/>
+                                <color key="textColor" red="1" green="0.49327188729999999" blue="0.47399842739999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="20"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="3"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N5N-CA-4EA" customClass="DesignableButton" customModule="InstagramLab" customModuleProvider="target">
+                                <rect key="frame" x="118" y="561" width="216" height="52"/>
+                                <color key="backgroundColor" red="1" green="0.49327188729999999" blue="0.47399842739999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="52" id="3nm-wj-7UU"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
+                                <state key="normal" title="Update Profile">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="20"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="updateProfilePressed:" destination="5Mq-OS-Jxp" eventType="touchUpInside" id="xRz-vS-Dgj"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -243,22 +271,28 @@
                         <constraints>
                             <constraint firstItem="8Nd-hN-v75" firstAttribute="bottom" secondItem="RNY-Cv-xYz" secondAttribute="bottom" constant="66" id="0fl-HK-cmu"/>
                             <constraint firstItem="8Nd-hN-v75" firstAttribute="trailing" secondItem="ZNg-tc-i9W" secondAttribute="trailing" constant="47" id="8Bc-Qd-wC0"/>
+                            <constraint firstItem="F1M-dU-M87" firstAttribute="leading" secondItem="8Nd-hN-v75" secondAttribute="leading" constant="149" id="8tp-dn-UIV"/>
                             <constraint firstItem="YwQ-0k-fou" firstAttribute="leading" secondItem="8Nd-hN-v75" secondAttribute="leading" constant="80" id="8wZ-Lr-gD4"/>
-                            <constraint firstItem="N5N-CA-4EA" firstAttribute="top" secondItem="CZe-5i-8Kt" secondAttribute="bottom" constant="8" id="DT4-1q-Hm2"/>
                             <constraint firstItem="8Nd-hN-v75" firstAttribute="trailing" secondItem="YwQ-0k-fou" secondAttribute="trailing" constant="80" id="ESk-3C-D1t"/>
-                            <constraint firstItem="8Nd-hN-v75" firstAttribute="trailing" secondItem="N5N-CA-4EA" secondAttribute="trailing" constant="170" id="Knh-Om-PGM"/>
+                            <constraint firstItem="XQi-DV-610" firstAttribute="top" secondItem="7PZ-O1-WaZ" secondAttribute="bottom" constant="20" id="KUd-Cw-RBY"/>
+                            <constraint firstItem="8Nd-hN-v75" firstAttribute="trailing" secondItem="N5N-CA-4EA" secondAttribute="trailing" constant="80" id="Knh-Om-PGM"/>
                             <constraint firstItem="ZNg-tc-i9W" firstAttribute="leading" secondItem="8Nd-hN-v75" secondAttribute="leading" constant="284" id="LPf-7v-GFu"/>
-                            <constraint firstItem="RNY-Cv-xYz" firstAttribute="top" secondItem="N5N-CA-4EA" secondAttribute="bottom" constant="55" id="NmM-bU-2zn"/>
-                            <constraint firstItem="CZe-5i-8Kt" firstAttribute="top" secondItem="7PZ-O1-WaZ" secondAttribute="bottom" constant="26" id="Oe0-xQ-TTr"/>
-                            <constraint firstItem="8Nd-hN-v75" firstAttribute="trailing" secondItem="CZe-5i-8Kt" secondAttribute="trailing" constant="80" id="SOS-an-rDe"/>
-                            <constraint firstAttribute="bottom" secondItem="N5N-CA-4EA" secondAttribute="bottom" constant="265" id="TZ3-qn-UPo"/>
+                            <constraint firstItem="RNY-Cv-xYz" firstAttribute="top" secondItem="N5N-CA-4EA" secondAttribute="bottom" constant="73" id="NmM-bU-2zn"/>
+                            <constraint firstItem="F1M-dU-M87" firstAttribute="top" secondItem="RNY-Cv-xYz" secondAttribute="bottom" constant="14" id="OUa-eW-RAl"/>
+                            <constraint firstItem="XQi-DV-610" firstAttribute="leading" secondItem="8Nd-hN-v75" secondAttribute="leading" constant="67" id="Ond-eb-R6d"/>
+                            <constraint firstItem="8Nd-hN-v75" firstAttribute="trailing" secondItem="F1M-dU-M87" secondAttribute="trailing" constant="134" id="RNn-ui-4eQ"/>
+                            <constraint firstAttribute="bottom" secondItem="N5N-CA-4EA" secondAttribute="bottom" constant="283" id="TZ3-qn-UPo"/>
                             <constraint firstItem="7PZ-O1-WaZ" firstAttribute="trailing" secondItem="RNY-Cv-xYz" secondAttribute="trailing" id="Ttd-cM-gOV"/>
                             <constraint firstItem="ZNg-tc-i9W" firstAttribute="top" secondItem="75o-sU-6kK" secondAttribute="top" constant="194.5" id="VAs-hZ-L6B"/>
+                            <constraint firstItem="8Nd-hN-v75" firstAttribute="bottom" secondItem="F1M-dU-M87" secondAttribute="bottom" id="VQX-Iv-4l0"/>
+                            <constraint firstItem="N5N-CA-4EA" firstAttribute="top" secondItem="XQi-DV-610" secondAttribute="bottom" constant="20" id="YBl-o3-UFQ"/>
                             <constraint firstItem="7PZ-O1-WaZ" firstAttribute="leading" secondItem="8Nd-hN-v75" secondAttribute="leading" constant="87" id="ccb-bz-tpP"/>
+                            <constraint firstItem="8Nd-hN-v75" firstAttribute="trailing" secondItem="XQi-DV-610" secondAttribute="trailing" constant="67" id="iwI-9F-b1I"/>
                             <constraint firstItem="7PZ-O1-WaZ" firstAttribute="leading" secondItem="RNY-Cv-xYz" secondAttribute="leading" id="nJl-cO-c41"/>
                             <constraint firstItem="8Nd-hN-v75" firstAttribute="trailing" secondItem="7PZ-O1-WaZ" secondAttribute="trailing" constant="72" id="oxl-Tj-BYm"/>
                             <constraint firstItem="ZNg-tc-i9W" firstAttribute="top" secondItem="YwQ-0k-fou" secondAttribute="bottom" constant="40.5" id="uQQ-55-xGA"/>
-                            <constraint firstItem="N5N-CA-4EA" firstAttribute="leading" secondItem="8Nd-hN-v75" secondAttribute="leading" constant="174" id="weA-LT-jRi"/>
+                            <constraint firstItem="8Nd-hN-v75" firstAttribute="trailing" secondItem="XQi-DV-610" secondAttribute="trailing" constant="67" id="w5Q-Z7-jKM"/>
+                            <constraint firstItem="N5N-CA-4EA" firstAttribute="leading" secondItem="8Nd-hN-v75" secondAttribute="leading" constant="118" id="weA-LT-jRi"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="8Nd-hN-v75"/>
                     </view>
@@ -266,9 +300,10 @@
                         <color key="badgeColor" red="1" green="0.49327188729999999" blue="0.47399842739999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </tabBarItem>
                     <connections>
-                        <outlet property="displayNameLabel" destination="CZe-5i-8Kt" id="iKj-vS-8Cv"/>
-                        <outlet property="profileDetailsLabel" destination="RNY-Cv-xYz" id="lGe-9g-cqf"/>
+                        <outlet property="displayNameLabel" destination="XQi-DV-610" id="UQj-1m-Nka"/>
+                        <outlet property="profileDetailsLabel" destination="YwQ-0k-fou" id="ONG-cW-oy4"/>
                         <outlet property="profileImage" destination="7PZ-O1-WaZ" id="NDE-h8-yW0"/>
+                        <outlet property="profileLabel" destination="YwQ-0k-fou" id="hXG-DB-vY1"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bJ6-GP-N3T" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

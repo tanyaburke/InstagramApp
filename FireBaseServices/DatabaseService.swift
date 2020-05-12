@@ -18,7 +18,10 @@ class DatabaseService {
   
   private let db = Firestore.firestore()
   
-  public func createItem(displayName: String,
+  
+    
+    
+    public func createItem(displayName: String,
                          completion: @escaping (Result<String, Error>) -> ()) {
     guard let user = Auth.auth().currentUser else { return }
     
