@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		2E3E807B2463CB8A002EE6A5 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E3E807A2463CB8A002EE6A5 /* Login.storyboard */; };
-		2E3E807D2463D532002EE6A5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2E3E807C2463D532002EE6A5 /* GoogleService-Info.plist */; };
 		2E3E807F24640969002EE6A5 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E3E807E24640969002EE6A5 /* LoginViewController.swift */; };
 		2E4F3A4024640E0A00A5519E /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4F3A3F24640E0A00A5519E /* DesignableView.swift */; };
 		2E4F3A43246414B000A5519E /* AuthenticationSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4F3A42246414B000A5519E /* AuthenticationSession.swift */; };
@@ -30,6 +29,7 @@
 		2E67B4BF2418152700F48CD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E67B4BE2418152700F48CD9 /* Assets.xcassets */; };
 		2E67B4C22418152700F48CD9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E67B4C02418152700F48CD9 /* LaunchScreen.storyboard */; };
 		2E67B4CD2418152700F48CD9 /* InstagramLabTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E67B4CC2418152700F48CD9 /* InstagramLabTests.swift */; };
+		2EC3B121246A605800AB8251 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2EC3B120246A605800AB8251 /* GoogleService-Info.plist */; };
 		C07FA9B4C7CBD2F8002981BE /* Pods_InstagramLab.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFD988B61966A398138D6E3F /* Pods_InstagramLab.framework */; };
 		CDBDAE8BC6E3A131C11F2369 /* Pods_InstagramLabTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAC431623D890C6C92BF2B13 /* Pods_InstagramLabTests.framework */; };
 /* End PBXBuildFile section */
@@ -47,7 +47,6 @@
 /* Begin PBXFileReference section */
 		278DB5D4FD1666FBFD4EC9D4 /* Pods-InstagramLabTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstagramLabTests.release.xcconfig"; path = "Target Support Files/Pods-InstagramLabTests/Pods-InstagramLabTests.release.xcconfig"; sourceTree = "<group>"; };
 		2E3E807A2463CB8A002EE6A5 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
-		2E3E807C2463D532002EE6A5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		2E3E807E24640969002EE6A5 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		2E4F3A3F24640E0A00A5519E /* DesignableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableView.swift; sourceTree = "<group>"; };
 		2E4F3A42246414B000A5519E /* AuthenticationSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationSession.swift; sourceTree = "<group>"; };
@@ -73,6 +72,7 @@
 		2E67B4C82418152700F48CD9 /* InstagramLabTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstagramLabTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E67B4CC2418152700F48CD9 /* InstagramLabTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramLabTests.swift; sourceTree = "<group>"; };
 		2E67B4CE2418152700F48CD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2EC3B120246A605800AB8251 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		5E226C646171A38650A37939 /* Pods-InstagramLab.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstagramLab.debug.xcconfig"; path = "Target Support Files/Pods-InstagramLab/Pods-InstagramLab.debug.xcconfig"; sourceTree = "<group>"; };
 		61F16E7D360E345EA175E7F9 /* Pods-InstagramLab.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstagramLab.release.xcconfig"; path = "Target Support Files/Pods-InstagramLab/Pods-InstagramLab.release.xcconfig"; sourceTree = "<group>"; };
 		BAF5A9B0AD2748DDDC86AE31 /* Pods-InstagramLabTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstagramLabTests.debug.xcconfig"; path = "Target Support Files/Pods-InstagramLabTests/Pods-InstagramLabTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -185,7 +185,7 @@
 				2E67B4BE2418152700F48CD9 /* Assets.xcassets */,
 				2E67B4C02418152700F48CD9 /* LaunchScreen.storyboard */,
 				2E67B4C32418152700F48CD9 /* Info.plist */,
-				2E3E807C2463D532002EE6A5 /* GoogleService-Info.plist */,
+				2EC3B120246A605800AB8251 /* GoogleService-Info.plist */,
 			);
 			path = InstagramLab;
 			sourceTree = "<group>";
@@ -304,8 +304,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				2E67B4C22418152700F48CD9 /* LaunchScreen.storyboard in Resources */,
-				2E3E807D2463D532002EE6A5 /* GoogleService-Info.plist in Resources */,
 				2E4F3A51246419E900A5519E /* MainView.storyboard in Resources */,
+				2EC3B121246A605800AB8251 /* GoogleService-Info.plist in Resources */,
 				2E67B4BF2418152700F48CD9 /* Assets.xcassets in Resources */,
 				2E3E807B2463CB8A002EE6A5 /* Login.storyboard in Resources */,
 			);

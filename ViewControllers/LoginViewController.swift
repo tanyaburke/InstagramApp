@@ -14,6 +14,7 @@ enum AccountState {
     case newUser
 }
 
+
 class LoginViewController: UIViewController {
 
     @IBOutlet weak var errorLabel: UILabel!
@@ -92,12 +93,13 @@ class LoginViewController: UIViewController {
       }
       
       private func navigateToMainView() {
-        UIViewController.showViewController(storyBoardName: "MainView", viewControllerId: "MainTabBarController")
+        UIViewController.showViewController(storyBoardName: "MainView", viewControllerId: "TabBarController")
       }
       
       private func clearErrorLabel() {
         errorLabel.text = ""
       }
+    
       
       @IBAction func toggleAccountState(_ sender: UIButton) {
         // change the account login state

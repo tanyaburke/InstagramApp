@@ -36,6 +36,19 @@ class DesignableButton: UIButton {
   }
 }
 
+class DesignableLabel: UILabel {
+  @IBInspectable var cornerRadius: CGFloat = 0
+  @IBInspectable var borderWidth: CGFloat = 0
+  @IBInspectable var borderColor: CGColor = UIColor.systemPink.cgColor
+  
+  override func layoutSubviews() {
+    super.layoutSubviews()
+    layer.cornerRadius = cornerRadius
+    layer.borderWidth = borderWidth
+    layer.borderColor = borderColor
+  }
+}
+
 class DesignableTextField: UITextField {
   @IBInspectable var cornerRadius: CGFloat = 0
   @IBInspectable var borderWidth: CGFloat = 0
